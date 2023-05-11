@@ -1,0 +1,33 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="@drawable/_bg__dashboardactivity_ek2_shape"
+	>
+
+				<RelativeLayout android:id="@+id/shape"
+					android:layout_marginTop="-95dp"
+					android:layout_marginStart="-86dp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					>
+
+					<View   android:id="@+id/ellipse_1"
+						android:background="@drawable/ellipse_1_shape"
+						 android:alpha="0.34000000357628"
+						 android:layout_marginStart="6dp"
+						android:layout_marginTop="67dp"
+						android:layout_width="160.53dp"
+						android:layout_height="158.67dp" />
+
+					<View   android:id="@+id/ellipse_2"
+						android:background="@drawable/ellipse_2_shape"
+						 android:alpha="0.34000000357628"
+						 android:layout_marginStart="112dp"
+						android:layout_marginTop="6dp"
+						android:layout_width="160.53dp"
+						android:layout_height="158.67dp" />
+
+				</RelativeLayout>
+
+</RelativeLayout>
+

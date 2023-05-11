@@ -1,0 +1,103 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="@drawable/_bg__dashboardactivity_ek2_shape"
+	>
+
+
+	<TextView
+		android:id="@+id/book_your_bus_tickets_with_ease_right_at_the_comfort_of_your_home_"
+		android:layout_width="302dp"
+		android:layout_height="46.5dp"
+		android:layout_centerHorizontal="true"
+		android:layout_gravity="center_horizontal|center"
+		android:layout_marginTop="400dp"
+		android:fontFamily="sans-serif"
+		android:gravity="center"
+		android:text="@string/book_your_bus_tickets_with_ease_right_at_the_comfort_of_your_home__string"
+		android:textColor="@color/book_your_bus_tickets_with_ease_right_at_the_comfort_of_your_home__color"
+		android:textSize="15sp"
+		android:textStyle="bold" />
+
+	<TextView
+		android:id="@+id/start_today___"
+		android:layout_width="302dp"
+		android:layout_height="46.5dp"
+		android:layout_centerHorizontal="true"
+		android:layout_gravity="center_horizontal|center"
+		android:layout_marginTop="500dp"
+		android:fontFamily="sans-serif"
+		android:gravity="center"
+		android:text="@string/start_today____string"
+		android:textColor="@color/book_your_bus_tickets_with_ease_right_at_the_comfort_of_your_home__color"
+		android:textSize="20sp"
+		android:textStyle="bold" />
+
+
+	<TextView
+		android:id="@+id/astro_booking_services"
+		android:layout_width="318dp"
+		android:layout_height="36dp"
+		android:layout_centerHorizontal="true"
+		android:layout_gravity="center_horizontal|center"
+		android:layout_marginLeft="29dp"
+		android:layout_marginTop="116dp"
+		android:fontFamily="sans-serif"
+		android:gravity="center"
+		android:text="@string/astro_booking_services_string"
+		android:textColor="@color/book_your_bus_tickets_with_ease_right_at_the_comfort_of_your_home__color"
+		android:textSize="20sp"
+		android:textStyle="bold" />
+
+
+	<RelativeLayout
+		android:id="@+id/shape"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginStart="-86dp"
+		android:layout_marginTop="-95dp">
+
+		<View
+			android:id="@+id/ellipse_1"
+			android:layout_width="160.53dp"
+			android:layout_height="158.67dp"
+			android:layout_marginStart="6dp"
+			android:layout_marginTop="67dp"
+			android:alpha="0.34000000357628"
+			android:background="@drawable/ellipse_1_shape" />
+
+		<View
+			android:id="@+id/ellipse_2"
+			android:layout_width="160.53dp"
+			android:layout_height="158.67dp"
+			android:layout_marginStart="112dp"
+			android:layout_marginTop="6dp"
+			android:alpha="0.34000000357628"
+			android:background="@drawable/ellipse_2_shape" />
+
+	</RelativeLayout>
+
+	<ImageView
+		android:id="@+id/__img___image"
+		android:layout_width="271dp"
+		android:layout_height="174dp"
+		android:layout_centerHorizontal="true"
+		android:layout_marginStart="44dp"
+		android:layout_marginTop="160dp"
+		android:contentDescription="__img___image"
+		android:src="@drawable/__img___image" />
+
+	<Button
+		android:id="@+id/btn_start"
+		android:layout_width="250dp"
+		android:layout_height="wrap_content"
+		android:layout_centerHorizontal="true"
+		android:layout_marginTop="600dp"
+		android:backgroundTint="#01ACB1"
+		android:text="Get Started"
+		android:textColor="@color/white"
+		android:textSize="20sp" />
+
+</RelativeLayout>
+

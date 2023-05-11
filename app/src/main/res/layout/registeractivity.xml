@@ -1,0 +1,173 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="@drawable/_bg__dashboardactivity_ek2_shape">
+
+	<RelativeLayout
+		android:id="@+id/shape"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginStart="-86dp"
+		android:layout_marginTop="-95dp">
+
+		<View
+			android:id="@+id/ellipse_1"
+			android:layout_width="160.53dp"
+			android:layout_height="158.67dp"
+			android:layout_marginStart="6dp"
+			android:layout_marginTop="67dp"
+			android:alpha="0.34000000357628"
+			android:background="@drawable/ellipse_1_shape" />
+
+		<View
+			android:id="@+id/ellipse_2"
+			android:layout_width="160.53dp"
+			android:layout_height="158.67dp"
+			android:layout_marginStart="112dp"
+			android:layout_marginTop="6dp"
+			android:alpha="0.34000000357628"
+			android:background="@drawable/ellipse_2_shape" />
+
+	</RelativeLayout>
+
+
+	<TextView
+		android:id="@+id/kindly_fill_in_your_details"
+		android:layout_width="302dp"
+		android:layout_height="29.5dp"
+		android:layout_centerHorizontal="true"
+		android:layout_gravity="center_horizontal|center"
+		android:layout_marginLeft="36dp"
+		android:layout_marginTop="158dp"
+		android:fontFamily="sans-serif"
+		android:gravity="center"
+		android:text="@string/kindly_fill_in_your_details_string"
+		android:textColor="@color/already_have_an_account__sign_in_color"
+		android:textSize="15sp"
+		android:textStyle="bold" />
+
+	<TextView
+		android:id="@+id/welcome_onboard"
+		android:layout_width="318dp"
+		android:layout_height="36dp"
+		android:layout_centerHorizontal="true"
+		android:layout_gravity="center_horizontal|center"
+		android:layout_marginLeft="29dp"
+		android:layout_marginTop="116dp"
+		android:fontFamily="sans-serif"
+		android:gravity="center"
+		android:text="@string/welcome_onboard_string"
+		android:textColor="@color/already_have_an_account__sign_in_color"
+		android:textSize="20sp"
+		android:textStyle="bold" />
+
+	<EditText
+		android:id="@+id/edtRegname"
+		android:layout_width="match_parent"
+		android:layout_height="44dp"
+		android:layout_centerHorizontal="true"
+		android:layout_marginStart="30dp"
+		android:layout_marginTop="210dp"
+		android:layout_marginEnd="30dp"
+		android:background="@drawable/edt_background"
+		android:ems="10"
+		android:hint="Enter your full name"
+		android:inputType="text"
+		android:paddingStart="20dp"
+		android:textColor="@color/already_have_an_account__sign_in_color"
+		android:textColorHint="@color/already_have_an_account__sign_in_color" />
+
+	<EditText
+		android:id="@+id/edtRegemail"
+		android:layout_width="match_parent"
+		android:layout_height="44dp"
+		android:layout_centerHorizontal="true"
+		android:layout_marginStart="30dp"
+		android:layout_marginTop="280dp"
+		android:layout_marginEnd="30dp"
+		android:background="@drawable/edt_background"
+		android:ems="10"
+		android:hint="Enter your Email"
+		android:inputType="textEmailAddress"
+		android:paddingStart="20dp"
+		android:textColor="@color/already_have_an_account__sign_in_color"
+		android:textColorHint="@color/already_have_an_account__sign_in_color" />
+
+	<EditText
+		android:id="@+id/edtRegphone"
+		android:layout_width="match_parent"
+		android:layout_height="44dp"
+		android:layout_centerHorizontal="true"
+		android:layout_marginStart="30dp"
+		android:layout_marginTop="350dp"
+		android:layout_marginEnd="30dp"
+		android:background="@drawable/edt_background"
+		android:ems="10"
+		android:hint="Enter your Phone Number"
+		android:inputType="phone"
+		android:paddingStart="20dp"
+		android:textColor="@color/already_have_an_account__sign_in_color"
+		android:textColorHint="@color/already_have_an_account__sign_in_color" />
+
+	<EditText
+		android:id="@+id/edtRegpassword"
+		android:layout_width="match_parent"
+		android:layout_height="44dp"
+		android:layout_centerHorizontal="true"
+		android:layout_marginStart="30dp"
+		android:layout_marginTop="420dp"
+		android:layout_marginEnd="30dp"
+		android:background="@drawable/edt_background"
+		android:ems="10"
+		android:hint="Enter your Password"
+		android:inputType="textPassword"
+		android:paddingStart="20dp"
+		android:textColor="@color/already_have_an_account__sign_in_color"
+		android:textColorHint="@color/already_have_an_account__sign_in_color" />
+
+	<EditText
+		android:id="@+id/edtRegpassword2"
+		android:layout_width="match_parent"
+		android:layout_height="44dp"
+		android:layout_centerHorizontal="true"
+		android:layout_marginStart="30dp"
+		android:layout_marginTop="490dp"
+		android:layout_marginEnd="30dp"
+		android:background="@drawable/edt_background"
+		android:ems="10"
+		android:hint="Confirm Password"
+		android:inputType="textPassword"
+		android:paddingStart="20dp"
+		android:textColor="@color/already_have_an_account__sign_in_color"
+		android:textColorHint="@color/already_have_an_account__sign_in_color" />
+
+	<Button
+		android:id="@+id/btnRegcreate"
+		android:layout_width="250dp"
+		android:layout_height="wrap_content"
+		android:layout_centerHorizontal="true"
+		android:layout_marginTop="570dp"
+		android:backgroundTint="#01ACB1"
+		android:text="Create Account"
+		android:textColor="@color/white"
+		android:textSize="20sp" />
+
+	<TextView
+		android:id="@+id/txtRegsignin"
+		android:layout_width="302dp"
+		android:layout_height="29.5dp"
+		android:layout_centerHorizontal="true"
+		android:layout_gravity="center_horizontal|center"
+		android:layout_marginTop="630dp"
+		android:fontFamily="sans-serif"
+		android:gravity="center"
+		android:text="@string/already_have_an_account__sign_in_string"
+		android:textColor="@color/already_have_an_account__sign_in_color"
+		android:textSize="15sp"
+		android:textStyle="bold" />
+
+
+</RelativeLayout>
+
+

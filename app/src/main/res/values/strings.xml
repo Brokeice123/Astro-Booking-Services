@@ -1,3 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Astro-Booking-App</string>
+	<!-- splashscreen strings -->
+
+	<string name="app_name">Page 1</string>
+	<string name="ek_img_content">ExportKit Image</string>
+	<string name="book_your_bus_tickets_with_ease_right_at_the_comfort_of_your_home__string">Book your bus tickets with ease right at the comfort of your home.</string>
+	<string name="start_today____string">START TODAY!!!</string>
+	<string name="get_started_string">Get Started</string>
+	<string name="astro_booking_services_string">Astro Booking servives</string>
+	<string name="welcome_back__string">Welcome Back!</string>
+	<string name="don_t_have_an_account__sign_up_string">Dont have an account? Sign up</string>
+	<string name="welcome_onboard_string">Welcome On Board</string>
+	<string name="kindly_fill_in_your_details_string">Kindly fill in your Details</string>
+	<string name="already_have_an_account__sign_in_string">Already have an account? Sign in</string>
 </resources>
