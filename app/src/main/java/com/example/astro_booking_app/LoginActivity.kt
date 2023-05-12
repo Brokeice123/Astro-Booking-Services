@@ -25,7 +25,7 @@ class LoginActivity : AppCompatActivity() {
     lateinit var log_txt_signup:TextView
 
     private lateinit var client:GoogleSignInClient
-    lateinit var btnGoogleSignIn:Button
+
 
     //Initialise Firebase
     lateinit var auth: FirebaseAuth
