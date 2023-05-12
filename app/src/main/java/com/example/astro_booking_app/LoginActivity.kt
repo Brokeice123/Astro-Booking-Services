@@ -65,7 +65,7 @@ class LoginActivity : AppCompatActivity() {
                 auth.signInWithEmailAndPassword(email, password).addOnCompleteListener(this) {
                     if (it.isSuccessful){
                         Toast.makeText(this, "Login Successful", Toast.LENGTH_SHORT).show()
-                        var gotomain = Intent(this, DashboardActivity::class.java)
+                        var gotomain = Intent(this, SaccoSelection::class.java)
                         startActivity(gotomain)
                         finish()
                     } else{
@@ -98,7 +98,7 @@ class LoginActivity : AppCompatActivity() {
                 .addOnCompleteListener{task->
                     if(task.isSuccessful){
 
-                        val i  = Intent(this,DashboardActivity::class.java)
+                        val i  = Intent(this,SaccoSelection::class.java)
                         startActivity(i)
 
                     }else{
