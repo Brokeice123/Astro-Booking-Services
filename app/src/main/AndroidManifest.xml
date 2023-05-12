@@ -29,7 +29,7 @@
             android:exported="false" />
 
         <activity
-            android:name=".SplashScreen"
+            android:name=".WelcomeActivity"
             android:exported="true">
 
             <intent-filter>

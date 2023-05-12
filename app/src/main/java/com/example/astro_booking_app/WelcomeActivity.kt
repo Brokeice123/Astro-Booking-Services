@@ -7,7 +7,7 @@ import android.view.WindowManager
 import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
 
-class SplashScreen : AppCompatActivity() {
+class WelcomeActivity : AppCompatActivity() {
 
     private lateinit var mbtnstart:Button
 
@@ -17,7 +17,7 @@ class SplashScreen : AppCompatActivity() {
         window.setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN)
 
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.splashscreen)
+        setContentView(R.layout.welcomeactivity)
 
         mbtnstart = findViewById(R.id.btn_start)
 

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "567520425298",
+    "project_id": "astro-booking-app",
+    "storage_bucket": "astro-booking-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:567520425298:android:ee6754b13c3ac0422e368b",
+        "android_client_info": {
+          "package_name": "com.example.astro_booking_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "567520425298-tu5ek7nktaaefc4elb2rdk777el1vb7a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD0kYBmhO8-9XDn2smK3iZNnA-JrkB24vc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "567520425298-tu5ek7nktaaefc4elb2rdk777el1vb7a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
