@@ -108,13 +108,12 @@ class LoginActivity : AppCompatActivity() {
                 }
         }
     }
-
-    //override fun onStart() {
-        //super.onStart()
-        //if(FirebaseAuth.getInstance().currentUser != null){
-           // val i  = Intent(this,DashboardActivity::class.java)
-            //startActivity(i)
+    override fun onStart() {
+        super.onStart()
+        if(FirebaseAuth.getInstance().currentUser != null){
+           val i  = Intent(this,BookingActivity::class.java)
+            startActivity(i)
         }
-    //}
+    }
 
-//}
+}
