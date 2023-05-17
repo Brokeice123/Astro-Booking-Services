@@ -1,36 +1,78 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
-	android:layout_width="match_parent"
-	android:layout_height="match_parent"
-	android:background="@color/_bg__splashscreen_ek2_color"
->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/_bg__splashscreen_ek2_color"
+    >
 
 
-	<RelativeLayout android:id="@+id/shape"
-					android:layout_marginTop="-95dp"
-					android:layout_marginStart="-86dp"
-					android:layout_width="wrap_content"
-					android:layout_height="wrap_content"
-					>
+    <RelativeLayout
+        android:id="@+id/shape"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="-86dp"
+        android:layout_marginTop="-95dp">
 
-					<View   android:id="@+id/ellipse_1"
-						android:background="@drawable/ellipse_1_shape"
-						 android:alpha="0.34000000357628"
-						 android:layout_marginStart="6dp"
-						android:layout_marginTop="67dp"
-						android:layout_width="160.53dp"
-						android:layout_height="158.67dp" />
+        <View
+            android:id="@+id/ellipse_1"
+            android:layout_width="160.53dp"
+            android:layout_height="158.67dp"
+            android:layout_marginStart="6dp"
+            android:layout_marginTop="67dp"
+            android:alpha="0.34000000357628"
+            android:background="@drawable/ellipse_1_shape" />
 
-					<View   android:id="@+id/ellipse_2"
-						android:background="@drawable/ellipse_2_shape"
-						 android:alpha="0.34000000357628"
-						 android:layout_marginStart="112dp"
-						android:layout_marginTop="6dp"
-						android:layout_width="160.53dp"
-						android:layout_height="158.67dp" />
+        <View
+            android:id="@+id/ellipse_2"
+            android:layout_width="160.53dp"
+            android:layout_height="158.67dp"
+            android:layout_marginStart="112dp"
+            android:layout_marginTop="6dp"
+            android:alpha="0.34000000357628"
+            android:background="@drawable/ellipse_2_shape" />
 
-				</RelativeLayout>
+    </RelativeLayout>
 
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:backgroundTint="#474747"
+        android:fontFamily="cursive"
+        android:text="Where will to Travel today?"
+        android:textColor="@color/already_have_an_account__sign_in_color"
+        android:textSize="30sp"
+        android:textStyle="bold" />
 
+    <SearchView
+        android:id="@+id/searchView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginEnd="50dp"
+        android:background="@drawable/signin_google_background"
+        android:iconifiedByDefault="false"
+        android:queryHint="Search Here">
+
+    </SearchView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="520dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="210dp"
+        android:layout_marginEnd="20dp"
+        android:orientation="vertical">
+
+        <ListView
+            android:id="@+id/mylistview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
 
 
 </RelativeLayout>

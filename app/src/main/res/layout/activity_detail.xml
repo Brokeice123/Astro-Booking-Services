@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailActivity">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/_bg__dashboardactivity_ek2_shape"
+        >
+
+
+        <RelativeLayout
+            android:id="@+id/shape"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="-86dp"
+            android:layout_marginTop="-95dp">
+
+            <View
+                android:id="@+id/ellipse_1"
+                android:layout_width="160.53dp"
+                android:layout_height="158.67dp"
+                android:layout_marginStart="6dp"
+                android:layout_marginTop="67dp"
+                android:alpha="0.34000000357628"
+                android:background="@drawable/ellipse_1_shape" />
+
+            <View
+                android:id="@+id/ellipse_2"
+                android:layout_width="160.53dp"
+                android:layout_height="158.67dp"
+                android:layout_marginStart="112dp"
+                android:layout_marginTop="6dp"
+                android:alpha="0.34000000357628"
+                android:background="@drawable/ellipse_2_shape" />
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="120dp"
+        android:fontFamily="cursive"
+        android:text="CONFIRM TRAVEL PLAN DETAILS"
+        android:textColor="@color/already_have_an_account__sign_in_color"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txt_title_disp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+        android:fontFamily="sans-serif-black"
+        android:text="TextView"
+        android:textColor="@color/already_have_an_account__sign_in_color"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/edtBookphone"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="280dp"
+        android:background="@drawable/edt_background"
+        android:ems="10"
+        android:hint="Enter Phone Number"
+        android:inputType="phone"
+        android:paddingStart="10dp"
+        android:textColorHint="@color/already_have_an_account__sign_in_color" />
+
+    <Button
+        android:id="@+id/Btn_pay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="380dp"
+        android:backgroundTint="#01ACB1"
+        android:text="Proceed to Book"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="520dp"
+        android:fontFamily="cursive"
+        android:text="IS THE TRAVEL PLAN INCORRECT?"
+        android:textColor="@color/already_have_an_account__sign_in_color"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/Btn_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="600dp"
+        android:backgroundTint="#01ACB1"
+        android:text="Back to Booking"
+        android:textColor="@color/white" />
+
+
+</RelativeLayout>

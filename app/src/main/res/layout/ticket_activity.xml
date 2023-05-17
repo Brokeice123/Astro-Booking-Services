@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/_bg__dashboardactivity_ek2_shape"
+    >
+
+
+    <RelativeLayout
+        android:id="@+id/shape"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="-86dp"
+        android:layout_marginTop="-95dp">
+
+        <View
+            android:id="@+id/ellipse_1"
+            android:layout_width="160.53dp"
+            android:layout_height="158.67dp"
+            android:layout_marginStart="6dp"
+            android:layout_marginTop="67dp"
+            android:alpha="0.34000000357628"
+            android:background="@drawable/ellipse_1_shape" />
+
+        <View
+            android:id="@+id/ellipse_2"
+            android:layout_width="160.53dp"
+            android:layout_height="158.67dp"
+            android:layout_marginStart="112dp"
+            android:layout_marginTop="6dp"
+            android:alpha="0.34000000357628"
+            android:background="@drawable/ellipse_2_shape" />
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        app:srcCompat="@drawable/checkmark" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+        android:fontFamily="cursive"
+        android:text="Travel Route"
+        android:textColor="@color/already_have_an_account__sign_in_color"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txt_details"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="250dp"
+        android:text="TextView"
+        android:textColor="@color/already_have_an_account__sign_in_color"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="350dp"
+        android:fontFamily="cursive"
+        android:text="Phone Number"
+        android:textColor="@color/already_have_an_account__sign_in_color"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txt_phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="400dp"
+        android:text="TextView"
+        android:textColor="@color/already_have_an_account__sign_in_color"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="500dp"
+        android:fontFamily="cursive"
+        android:text="Ticket Number"
+        android:textColor="@color/already_have_an_account__sign_in_color"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txt_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="550dp"
+        android:text="TextView"
+        android:textColor="@color/already_have_an_account__sign_in_color"
+        android:textSize="20sp" />
+
+</RelativeLayout>
+
