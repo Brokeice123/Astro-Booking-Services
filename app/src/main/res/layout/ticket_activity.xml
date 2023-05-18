@@ -70,7 +70,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="350dp"
+        android:layout_marginTop="320dp"
         android:fontFamily="cursive"
         android:text="Phone Number"
         android:textColor="@color/already_have_an_account__sign_in_color"
@@ -82,7 +82,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="400dp"
+        android:layout_marginTop="380dp"
         android:text="TextView"
         android:textColor="@color/already_have_an_account__sign_in_color"
         android:textSize="20sp" />
@@ -92,7 +92,29 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="500dp"
+        android:layout_marginTop="460dp"
+        android:fontFamily="cursive"
+        android:text="Date"
+        android:textColor="@color/already_have_an_account__sign_in_color"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txt_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="510dp"
+        android:text="TextView"
+        android:textColor="@color/already_have_an_account__sign_in_color"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="600dp"
         android:fontFamily="cursive"
         android:text="Ticket Number"
         android:textColor="@color/already_have_an_account__sign_in_color"
@@ -104,7 +126,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="550dp"
+        android:layout_marginTop="650dp"
         android:text="TextView"
         android:textColor="@color/already_have_an_account__sign_in_color"
         android:textSize="20sp" />

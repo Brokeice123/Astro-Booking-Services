@@ -79,12 +79,24 @@
         android:paddingStart="10dp"
         android:textColorHint="@color/already_have_an_account__sign_in_color" />
 
+    <EditText
+        android:id="@+id/editBookDate"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="350dp"
+        android:ems="10"
+        android:paddingStart="10dp"
+        android:background="@drawable/edt_background"
+        android:hint="Enter Date"
+        android:inputType="date" />
+
     <Button
         android:id="@+id/Btn_pay"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="380dp"
+        android:layout_marginTop="450dp"
         android:backgroundTint="#01ACB1"
         android:text="Proceed to Book"
         android:textColor="#FFFFFF" />
@@ -94,7 +106,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="520dp"
+        android:layout_marginTop="600dp"
         android:fontFamily="cursive"
         android:text="IS THE TRAVEL PLAN INCORRECT?"
         android:textColor="@color/already_have_an_account__sign_in_color"
@@ -106,7 +118,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="600dp"
+        android:layout_marginTop="650dp"
         android:backgroundTint="#01ACB1"
         android:text="Back to Booking"
         android:textColor="@color/white" />

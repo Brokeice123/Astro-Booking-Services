@@ -21,6 +21,8 @@ class DetailActivity : AppCompatActivity() {
     private lateinit var progressBar: ProgressBar
     lateinit var phone_edt:EditText
 
+    lateinit var data_edt:EditText
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_detail)
@@ -34,6 +36,7 @@ class DetailActivity : AppCompatActivity() {
         tick_btn = findViewById(R.id.Btn_pay)
         back_btn = findViewById(R.id.Btn_back)
         phone_edt = findViewById(R.id.edtBookphone)
+        data_edt = findViewById(R.id.editBookDate)
 
         val bundle = intent.extras
         val data = bundle?.getString("data")
@@ -48,6 +51,7 @@ class DetailActivity : AppCompatActivity() {
 
                 var destination = title_disp.text.toString().trim()
                 var phone = phone_edt.text.toString().trim()
+                var date = data_edt.text.toString().trim()
                 var time_id = System.currentTimeMillis().toString()
 
                 //progressbar
@@ -55,11 +59,11 @@ class DetailActivity : AppCompatActivity() {
                 progress.setTitle("Saving Ticket Information.....")
                 progress.setMessage("Please Wait")
                 //Validation
-                if (phone.isEmpty()) {
+                if (phone.isEmpty() || date.isEmpty()) {
                     Toast.makeText(this, "Cannot Submit Empty Phone Field", Toast.LENGTH_SHORT).show()
                 } else {
                     var my_child = FirebaseDatabase.getInstance().reference.child("Ticket/"+time_id)
-                    var travel_data = Travel(destination,phone, time_id)
+                    var travel_data = Travel(destination,phone, time_id, date)
 
                     //Show progress
                     progress.show()
@@ -72,6 +76,7 @@ class DetailActivity : AppCompatActivity() {
                             var intent = Intent(this,TicketActivity::class.java)
                             intent.putExtra("destination", destination)
                             intent.putExtra("phone", phone)
+                            intent.putExtra("date", date)
                             intent.putExtra("time_id", time_id)
                             startActivity(intent)
                         }else {

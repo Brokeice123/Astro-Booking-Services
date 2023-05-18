@@ -11,6 +11,7 @@ class TicketActivity : AppCompatActivity() {
     lateinit var details:TextView
     lateinit var phone:TextView
     lateinit var ID:TextView
+    lateinit var date:TextView
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -19,6 +20,7 @@ class TicketActivity : AppCompatActivity() {
         details = findViewById(R.id.txt_details)
         phone = findViewById(R.id.txt_phone)
         ID = findViewById(R.id.txt_id)
+        date = findViewById(R.id.txt_date)
 
         var detailstextview = intent.getStringExtra("destination")
         details.setText(detailstextview)
@@ -28,6 +30,9 @@ class TicketActivity : AppCompatActivity() {
 
         var idtextview = intent.getStringExtra("time_id")
         ID.setText(idtextview)
+
+        var datetextview = intent.getStringExtra("date")
+        date.setText(datetextview)
 
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
             window.decorView.systemUiVisibility = View.SYSTEM_UI_FLAG_LAYOUT_STABLE or View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN
